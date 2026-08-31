@@ -67,8 +67,18 @@ Suspicious: 0
 Harmless:   0
 Undetected: 3
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/70128e9a2cb6288882682bce54470ad73dd5b04a/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20202041.png)
-The next improvement is to make the tool interactive instead of hard-coding one hash. Go to Vs Code and change the hash_value =
+The next improvement is to make the tool interactive instead of hard-coding one hash. 
+
+Go to Vs Code and change the hash_value =
+
+
 hash_value = input("Enter SHA-256 hash to investigate: ").strip() 
+
 Press ctrl+s
+
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/3214b3c16f6bd89354def6875e560f4a4426c3e0/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20202146.png)
-Go back to Powershell and type in python main.py and press enter. You'll get Enter SHA-256 hash to investigate:type in the hash you would like to investigate and press enter. Now your program will investigate whatever hash the analyst enters.
+Go back to Powershell and type in python main.py and press enter.
+
+You'll get Enter SHA-256 hash to investigate:type in the hash you would like to investigate and press enter. 
+
+Now your program will investigate whatever hash the analyst enters.
