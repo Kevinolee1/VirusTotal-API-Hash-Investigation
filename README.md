@@ -121,4 +121,5 @@ if response.status_code == 200:
 else:
     print("VirusTotal lookup failed.")
     print(f"Status Code: {response.status_code}")
+    Press crtl+s to save
     print(response.text)
