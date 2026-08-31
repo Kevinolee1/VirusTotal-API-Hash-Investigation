@@ -23,8 +23,11 @@ import requests
 hash_value = "type in the hash value"
 
 print("IOC Investigation Tool")
+
 print("----------------------")
+
 print(f"Testing SHA-256: {hash_value}")
+
 Press ctrl+s to save
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/95960e5d85805e4637fc079f51423c4b741232ea/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20195310.png)
 
@@ -41,40 +44,9 @@ Got to VirusTotal and copy your API Key
 Open your .env file in Vs Code and type in your virustotal API Key after VT_API_KEY. Save it by pressing ctrl+s
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/7d3c0fb75ae8f50a97ec58fb6439e0fcec00bafa/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200741.png)
 Next, replace the contents of main.py with:
-import os
-import requests
-from dotenv import load_dotenv
 
-load_dotenv()
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/5f1ce405171c1431407f2f80b4a87e4199cea94c/Screenshot%202026-08-31%20193653.png)
 
-api_key = os.getenv("VT_API_KEY")
-
-hash_value = "Whatever_hash_value_you_are_using"
-
-url = f"https://www.virustotal.com/api/v3/files/{hash_value}"
-
-headers = {
-    "x-apikey": api_key
-}
-
-response = requests.get(url, headers=headers)
-
-print("IOC Investigation Tool")
-print("----------------------")
-
-if response.status_code == 200:
-    data = response.json()
-
-    stats = data["data"]["attributes"]["last_analysis_stats"]
-
-    print(f"SHA-256: {hash_value}")
-    print(f"Malicious: {stats['malicious']}")
-    print(f"Suspicious: {stats['suspicious']}")
-    print(f"Harmless: {stats['harmless']}")
-    print(f"Undetected: {stats['undetected']}")
-else:
-    print(f"Error: {response.status_code}")
-    print(response.text)
 Press ctrl+s to save
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/f429ff564c25f0319f02dd158faeb4eaa761f39e/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20201515.png)
 Type python main.py and press enter. You should get 
