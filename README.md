@@ -39,3 +39,39 @@ Testing SHA-256: .............................................
 Got to VirusTotal and copy your API Key
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/c4ef3e1bdc63de962e2427bc6b8fb097c16baebf/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200220.png)
 Open your .env file in Vs Code and type in your virustotal API Key after VT_API_KEY. Save it by pressing ctrl+s
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/7d3c0fb75ae8f50a97ec58fb6439e0fcec00bafa/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200741.png)
+Next, replace the contents of main.py with:
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("VT_API_KEY")
+
+hash_value = "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+
+url = f"https://www.virustotal.com/api/v3/files/{hash_value}"
+
+headers = {
+    "x-apikey": api_key
+}
+
+response = requests.get(url, headers=headers)
+
+print("IOC Investigation Tool")
+print("----------------------")
+
+if response.status_code == 200:
+    data = response.json()
+
+    stats = data["data"]["attributes"]["last_analysis_stats"]
+
+    print(f"SHA-256: {hash_value}")
+    print(f"Malicious: {stats['malicious']}")
+    print(f"Suspicious: {stats['suspicious']}")
+    print(f"Harmless: {stats['harmless']}")
+    print(f"Undetected: {stats['undetected']}")
+else:
+    print(f"Error: {response.status_code}")
+    print(response.text)
