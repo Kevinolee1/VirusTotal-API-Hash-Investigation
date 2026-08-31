@@ -45,7 +45,7 @@ Open your .env file in Vs Code and type in your virustotal API Key after VT_API_
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/7d3c0fb75ae8f50a97ec58fb6439e0fcec00bafa/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200741.png)
 Next, replace the contents of main.py with:
 
-![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/5f1ce405171c1431407f2f80b4a87e4199cea94c/Screenshot%202026-08-31%20193653.png)
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/ee74312896931fbf79d8f38ec5ff9221b77734a4/Screenshot%202026-08-31%20193757.png)
 
 Press ctrl+s to save
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/f429ff564c25f0319f02dd158faeb4eaa761f39e/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20201515.png)
