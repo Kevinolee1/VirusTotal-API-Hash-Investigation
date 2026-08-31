@@ -61,7 +61,6 @@ response = requests.get(url, headers=headers)
 
 print("IOC Investigation Tool")
 print("----------------------")
-Press ctrl+s to save
 
 if response.status_code == 200:
     data = response.json()
@@ -76,3 +75,4 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}")
     print(response.text)
+Press ctrl+s to save
