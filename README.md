@@ -13,3 +13,5 @@ Then create the main project file by typing New-Item main.py and press enter
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/2f544ab5825f735612c27572c679489ea452651f/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20193130.png)
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/cfc951b68193dbd311f7af92f2d21c5e238fd1c1/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20193248.png)
 Also create these files by typing New-Item .env,New-Item .env.example, New-Item .gitignore, New-Item requirements.txt and press enter
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/e7609b11fc96aa960e39744e393b2222a59951ab/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20193948.png)
+python -m pip freeze > requirements.txt and press enter to run
