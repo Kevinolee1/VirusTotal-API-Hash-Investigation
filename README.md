@@ -76,4 +76,4 @@ else:
     print(f"Error: {response.status_code}")
     print(response.text)
 Press ctrl+s to save
-
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/f429ff564c25f0319f02dd158faeb4eaa761f39e/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20201515.png)
