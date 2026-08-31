@@ -49,7 +49,7 @@ load_dotenv()
 
 api_key = os.getenv("VT_API_KEY")
 
-hash_value = "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+hash_value = "......................................................."
 
 url = f"https://www.virustotal.com/api/v3/files/{hash_value}"
 
