@@ -17,6 +17,7 @@ Also create these files by typing New-Item .env,New-Item .env.example, New-Item 
 python -m pip freeze > requirements.txt and press enter to run. Next, open the project folder in VS Code by typing code . and press enter
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/da1e1c8a0182a91a869cdb5e97d63527c74f95f3/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20194352.png)
 Then open main.py in VS code and type in 
+
 import requests
 
 hash_value = "type in the hash value"
