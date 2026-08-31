@@ -133,6 +133,6 @@ Suspicious: 0
 Harmless:   0
 Undetected: 3
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/70128e9a2cb6288882682bce54470ad73dd5b04a/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20202041.png)
-The next improvement is to make your tool interactive instead of hard-coding one hash. Change the hash_value =
+The next improvement is to make the tool interactive instead of hard-coding one hash. Change the hash_value =
 hash_value = input("Enter SHA-256 hash to investigate: ").strip() 
 Press ctrl+s
