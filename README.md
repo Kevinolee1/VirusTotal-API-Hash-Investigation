@@ -123,3 +123,12 @@ else:
     print(f"Status Code: {response.status_code}")
     Press crtl+s to save
     print(response.text)
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/3214b3c16f6bd89354def6875e560f4a4426c3e0/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20202146.png)
+Go back to Powershell and type in python main.py and press enter. You should get something similar to 
+
+VirusTotal Results
+------------------
+Malicious:  64
+Suspicious: 0
+Harmless:   0
+Undetected: 3
