@@ -76,3 +76,5 @@ else:
     print(f"Error: {response.status_code}")
     print(response.text)
 Press ctrl+s to save
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/e1839d2c10eec60088d8af46beffa6f2747a1dd4/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20201515.png)
+Go back to Powershell and type python main.py and press enter
