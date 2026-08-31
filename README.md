@@ -25,3 +25,4 @@ hash_value = "type in the hash value"
 print("IOC Investigation Tool")
 print("----------------------")
 print(f"Testing SHA-256: {hash_value}")
+Press ctrl+s to save
