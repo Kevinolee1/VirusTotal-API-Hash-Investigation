@@ -15,7 +15,7 @@ Then create the main project file by typing New-Item main.py and press enter
 Also create these files by typing New-Item .env,New-Item .env.example, New-Item .gitignore, New-Item requirements.txt and press enter
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/e7609b11fc96aa960e39744e393b2222a59951ab/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20193948.png)
 python -m pip freeze > requirements.txt and press enter to run. Next, open the project folder in VS Code by typing code . and press enter
-![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/e3ccc5b2f4034e9759ca0e9459347bd4f1d461b5/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20194025.png)
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/da1e1c8a0182a91a869cdb5e97d63527c74f95f3/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20194352.png)
 Then open main.py in VS code and type in 
 import requests
 
