@@ -55,46 +55,8 @@ API key length: 64
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/d9694352e2fd280ac87604b6b2dad21391668150/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20202041.png)
 Right now, though, the main.py is still running the API-key test code, not the VirusTotal lookup code. Got back to Vs code and replace everything in main.py with this:
 
-import os
-import requests
-from dotenv import load_dotenv
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/550f50604382fa77251d4ddaa89bff5de1a07af4/Screenshot%202026-08-31%20193835.png)
 
-load_dotenv()
-
-api_key = os.getenv("VT_API_KEY")
-
-hash_value = "Whatever_hash_value_you_are_using"
-
-url = f"https://www.virustotal.com/api/v3/files/{hash_value}"
-
-headers = {
-    "x-apikey": api_key
-}
-
-print("SOC IOC Investigation Tool")
-print("--------------------------")
-print(f"Investigating: {hash_value}")
-print()
-
-response = requests.get(url, headers=headers)
-
-if response.status_code == 200:
-    data = response.json()
-
-    stats = data["data"]["attributes"]["last_analysis_stats"]
-
-    print("VirusTotal Results")
-    print("------------------")
-    print(f"Malicious:  {stats['malicious']}")
-    print(f"Suspicious: {stats['suspicious']}")
-    print(f"Harmless:   {stats['harmless']}")
-    print(f"Undetected: {stats['undetected']}")
-
-else:
-    print("VirusTotal lookup failed.")
-    print(f"Status Code: {response.status_code}")
-    Press crtl+s to save
-    print(response.text)
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/4a8e2a65bd720993b63c994f67b6dd8764c3251b/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20201649.png)
 Go back to Powershell and type in python main.py and press enter. You should get something similar to 
 
