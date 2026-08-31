@@ -24,15 +24,7 @@ python -m pip freeze > requirements.txt and press enter to run. Next, open the p
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/da1e1c8a0182a91a869cdb5e97d63527c74f95f3/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20194352.png)
 Then open main.py in VS code and type in 
 
-import requests
-
-hash_value = "type in the hash value"
-
-print("IOC Investigation Tool")
-
-print("----------------------")
-
-print(f"Testing SHA-256: {hash_value}")
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/bd81af2f7599a3c507a0495c5a352cf81aef7499/Screenshot%202026-08-31%20195714.png)
 
 Press ctrl+s to save
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/95960e5d85805e4637fc079f51423c4b741232ea/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20195310.png)
