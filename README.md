@@ -34,4 +34,6 @@ IOC INVESTERGATION TOOL
 
 ----------------------
 Testing SHA-256: .............................................
+Got to VirusTotal 
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/c4ef3e1bdc63de962e2427bc6b8fb097c16baebf/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200220.png)
 
