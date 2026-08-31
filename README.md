@@ -10,3 +10,4 @@ For this project, use a temporary change for just this PowerShell window rather 
 Now install the two packages by typing python -m pip install requests python-dotenv and press enter
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/f172ec702867342f8023f4ac4d4b63c08b21fea2/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20192858.png)
 Then create the main project file by typing New-Item main.py and press enter
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/2f544ab5825f735612c27572c679489ea452651f/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20193130.png)
