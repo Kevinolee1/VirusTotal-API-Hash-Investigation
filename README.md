@@ -34,6 +34,8 @@ IOC INVESTERGATION TOOL
 
 ----------------------
 Testing SHA-256: .............................................
-Got to VirusTotal 
-![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/c4ef3e1bdc63de962e2427bc6b8fb097c16baebf/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200220.png)
 
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/3fce67e177c7a7d7f576f8c082d4e4949b340d3b/Screenshot%202026-08-30%20224202.png)
+Got to VirusTotal and copy your API Key
+![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/c4ef3e1bdc63de962e2427bc6b8fb097c16baebf/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20200220.png)
+Open your .env file in Vs Code and type in your virustotal API Key after VT_API_KEY. Save it by pressing ctrl+s
