@@ -29,7 +29,7 @@ Press ctrl+s to save
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/95960e5d85805e4637fc079f51423c4b741232ea/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20195310.png)
 
 Go back to PowerShell and type python main.py and press enter. You Should see
+IOC INVESTERGATION TOOL 
 
-IOC Investigatilon Tool
 ----------------------
 Testing SHA-256: .............................................
