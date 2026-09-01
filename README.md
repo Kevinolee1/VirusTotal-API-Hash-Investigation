@@ -1,5 +1,6 @@
 # VirusTotal API Hash Investigation
-Python-based SOC automation tool that investigates IP addresses, domains, URLs, and file hashes using threat intelligence sources and generates an analyst-ready security report.
+Built a Python-based SOC investigation tool that uses the VirusTotal API to analyze SHA-256 file hashes, retrieve threat-intelligence results, and display malicious, suspicious, harmless, and undetected detection statistics.
+
 ![image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/ac6e9848768043c5d6835aebacb572d375ce74de/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20190640.png)
 In PowerShell create a folder for your project in VS Code by type mkdir SOC-IOC-Investigation-Automation and press enter
 ![Image alt](https://github.com/Kevinolee1/VirusTotal-API-Hash-Investigation/blob/7599e6bda6e62c6d9d8c775df91294c79d434bfb/VirusTotal%20API%20Hash%20Investigation/Screenshot%202026-08-30%20190640.png)
@@ -31,7 +32,7 @@ Press ctrl+s to save
 
 Go back to PowerShell and type python main.py and press enter. You Should see
 
-IOC INVESTERGATION TOOL 
+IOC INVESTIGATION TOOL
 
 ----------------------
 Testing SHA-256: .............................................
@@ -80,3 +81,5 @@ Go back to Powershell and type in python main.py and press enter.
 You'll get Enter SHA-256 hash to investigate:type in the hash you would like to investigate and press enter. 
 
 Now your program will investigate whatever hash the analyst enters.
+
+**Skills Demonstrated:** Python • REST API • VirusTotal • Threat Intelligence • IOC Analysis • JSON Parsing • Environment Variables • API Key Management • SOC Investigation
